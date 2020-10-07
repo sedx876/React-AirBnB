@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/App.css';
 import Home from './components/Home'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Router>
       <Header />
       <Home />
+      <Footer />
     </Router>
     </div>
   );
